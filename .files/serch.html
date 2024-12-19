@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustapään Auto Oy</title>
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mustapään Auto Oy</h1>
+        <p>Akseli 1 / Kehä 3, Suutarila (Bilteman vieressä), 00750 HELSINKI</p>
+        <p>Arkisin 10-18, Lauantaisin 10-15</p>
+    </header>
+    <main>
+        <section id="tire-search">
+            <h2>Rengasvalitsin</h2>
+            <label for="size-select">Valitse rengaskoko:</label>
+            <select id="size-select">
+                <option value="">Valitse koko</option>
+                <!-- Dynamically populate options -->
+            </select>
+            <button id="search-btn">Hae</button>
+            <div id="results">
+                <h3>Tulokset</h3>
+                <div id="sort-options">
+                    <label for="sort-select">Lajittele:</label>
+                    <select id="sort-select">
+                        <option value="brand">Merkki</option>
+                        <option value="price">Hinta</option>
+                    </select>
+                </div>
+                <ul id="tire-list"></ul>
+            </div>
+        </section>
+        <section id="info">
+            <h2>Tietoa meistä</h2>
+            <p>Mustapään Auto Oy on erikoistunut renkaisiin ja tarjoaa laajan valikoiman kesä- ja talvirenkaita.</p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345086753!2d144.95373531531595!3d-37.81720997975153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577de3a523b4a8!2sAuto%20Repair!5e0!3m2!1sen!2sfi!4v1633488820272!5m2!1sen!2sfi" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </section>
+        <section id="ads">
+            <h2>Mainokset</h2>
+            <img src="season_offer1.jpg" alt="Talvirenkaiden tarjous">
+            <img src="season_offer2.jpg" alt="Kesärenkaiden tarjous">
+        </section>
+        <section id="video">
+            <h2>Renkaiden vaihtaminen</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/some_video_id" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+        </section>
+    </main>
+    <script src="/src/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,261 @@
+{
+    "renkaat": [
+      { 
+        "ID": 1, 
+        "brand": "Nokian",
+        "model": "Hakkapeliitta 8",
+        "type": "Nasta",
+        "size": "165/55-14",
+        "price": 65.50,
+        "available": 15 
+    },
+      { 
+
+        "ID": 2, 
+        "brand": "Nokian", 
+        "model": "Hakkapeliitta 8", 
+        "type": "Nasta", 
+        "size": "165/65-14", 
+        "price": 65.75, 
+        "available": 15 
+    },
+      { 
+
+        "ID": 3, 
+        "brand": "Nokian", 
+        "model": "Hakkapeliitta 9", 
+        "type": "Kitka", 
+        "size": "165/55-15", 
+        "price": 74.55, 
+        "available": 50 
+    },
+      { 
+
+        "ID": 4, 
+        "brand": "Nokian", 
+        "model": "Hakkapeliitta R3", 
+        "type": "Kitka", 
+        "size": "175/65-15", 
+        "price": 78.94, 
+        "available": 3 
+    },
+      { 
+
+        "ID": 5, 
+        "brand": "Kumho", 
+        "model": "Wi31+", 
+        "type": "Nasta", 
+        "size": "185/65-15", 
+        "price": 125.45, 
+        "available": 80 
+    },
+      { 
+
+        "ID": 6, 
+        "brand": "Kumho", 
+        "model": "Wi31+", 
+        "type": "Nasta", 
+        "size": "205/65-16", 
+        "price": 132.53, 
+        "available": 14 
+    },
+      { 
+
+        "ID": 7, 
+        "brand": "Kumho", 
+        "model": "WS71", 
+        "type": "Kitka", 
+        "size": "175/65-15",
+        "price": 86.45, 
+        "available": 23 
+    },
+      { 
+
+        "ID": 8, 
+        "brand": "Kumho",
+        "model": "WS71", 
+        "type": "Kitka", 
+        "size": "165/55-14", 
+        "price": 75.88, 
+        "available": 3 
+    },
+      { 
+
+        "ID": 9, 
+        "brand": "Hankook", 
+        "model": "RW11", 
+        "type": "Kitka", 
+        "size": "165/65-14", 
+        "price": 98.12, 
+        "available": 2 
+    },
+      { 
+
+        "ID": 10,
+        "brand": "Hankook", 
+        "model": "RW11", 
+        "type": "Kitka", 
+        "size": "175/65-15", 
+        "price": 99.49, 
+        "available": 12 
+    },
+      { 
+
+        "ID": 11,
+        "brand": "Hankook", 
+        "model": "RW11", 
+        "type": "Kitka", 
+        "size": "205/65-16", 
+        "price": 102.24, 
+        "available": 50 },
+      { 
+
+        "ID": 12,
+        "brand": "Nokian", 
+        "model": "Nordman RS2", 
+        "type": "Kitka", 
+        "size": "185/65-15", 
+        "price": 78.50, 
+        "available": 60 
+    },
+      { 
+        "ID": 13,
+        "brand": "Nokian", 
+        "model": "Nordman RS2", 
+        "type": "Kitka",
+        "size": "175/65-14", 
+        "price": 88.34, 
+        "available": 16 
+    },
+      { 
+        "ID": 14,
+         "brand": "Nokian", 
+         "model": "Nordman RS2", 
+         "type": "Kitka", 
+         "size": "185/65-14", 
+         "price": 87.32, 
+         "available": 5 
+        },
+      { 
+        "ID": 15,
+         "brand": "Kumho", 
+         "model": "WS71", 
+         "type": "Kitka", 
+         "size": "235/65-17", 
+         "price": 199.93, 
+         "available": 7 
+        },
+      { 
+        "ID": 16,
+         "brand": "Kumho", 
+         "model": "WS71", 
+         "type": "Kitka", 
+         "size": "235/60-18", 
+         "price": 213.05, 
+         "available": 8 },
+      { 
+        "ID": 17,
+        "brand": "Nokian", 
+        "model": "Hakkapeliitta 9", 
+        "type": "Nasta", 
+        "size": "185/65-15", 
+        "price": 81.20, 
+        "available": 16 
+        },
+      { 
+        "ID": 18,
+        "brand": "Nokian", 
+        "model": "Hakkapeliitta 9", 
+        "type": "Nasta", 
+        "size": "195/65-15", 
+        "price": 99.00, 
+        "available": 20 
+        },
+      { 
+        "ID": 19,
+        "brand": "Nokian", 
+        "model": "Hakkapeliitta 8 SUV", 
+        "type": "Kitka", 
+        "size": "225/55-18", 
+        "price": 234.40, 
+        "available": 7 
+        },
+      { 
+        "ID": 20,
+        "brand": "Kumho", 
+        "model": "WS71", 
+        "type": "Kitka", 
+        "size": "235/60-17", 
+        "price": 134.90, 
+        "available": 30 
+        },
+      { 
+        "ID": 21,
+        "brand": "Kumho", 
+        "model": "WS71", 
+        "type": "Kitka", 
+        "size": "255/50-19", 
+        "price": 144.10, 
+        "available": 8 
+        },
+      { 
+        "ID": 22,
+        "brand": "Hankook", 
+        "model": "K425", 
+        "type": "Kesä", 
+        "size": "205/55-16", 
+        "price": 55.00, 
+        "available": 34 
+        },
+      { 
+        "ID": 23,
+        "brand": "Hankook", 
+        "model": "K125", 
+        "type": "Kesä", 
+        "size": "205/55-16", 
+        "price": 61.00, 
+        "available": 12 
+        },
+      { 
+
+        "ID": 24,
+         "brand": "Nokian", "model": "91H", "type": "Kesä", "size": "205/55-16", "price": 63.00, "available": 1 
+        },
+      { 
+        "ID": 25,
+        "brand": "Hankook", 
+        "model": "Ventus Prime 3 K125", 
+        "type": "Kesä", 
+        "size": "185/55-15", 
+        "price": 75.00, 
+        "available": 32 
+    },
+      { 
+        "ID": 26,
+        "brand": "Hankook", 
+        "model": "Ventus Prime 3 K125", 
+        "type":"Kesä", 
+        "size": "195/55-15", 
+        "price": 82.00,
+        "available": 12 
+    },
+      { 
+        "ID": 27,
+        "brand": "Kumho", 
+        "model": "Ecowing ES-31", 
+        "type": "Kesä", 
+        "size": "195/55-15", 
+        "price": 81.00, 
+        "available": 16 
+    },
+      { 
+        "ID": 28,
+        "brand": "Nokian", 
+        "model": "Hakka Blue 2",
+        "type": "Kesä",
+        "size": "195/55-15",
+        "price": 91.00, "available": 3 
+    }
+    ]
+  }
+  

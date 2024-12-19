@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustapään Auto Oy - Renkaiden Haku</title>
+    <link rel="stylesheet" href="/assets/styles/globals.css">
+</head>
+<body>
+    <header>
+        <h1>Mustapään Auto Oy</h1>
+        <p>Kesä- ja talvirenkaiden asiantuntija Helsingissä</p>
+    </header>
+    <div class="container">
+        <section class="info">
+            <div>
+                <h2>Yrityksen tiedot</h2>
+                <p>Akseli 1 / Kehä 3, Suutarila (Bilteman vieressä)</p>
+                <p>00750 HELSINKI</p>
+                <p>Aukioloajat: Arkisin 10-18, Lauantaisin 10-15</p>
+            </div>
+            <div class="map">
+                <h2>Toimipisteen kartta</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.6798952930255!2d24.950273615754424!3d60.24779178197526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469209b67892b8d7%3A0x30c44d2f7f01e8a!2sSuutarila%2C%2000750%20Helsinki!5e0!3m2!1sen!2sfi!4v1698422135093!5m2!1sen!2sfi" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+        <section class="ads">
+            <div>
+                <h2>Sesonkimainos 1</h2>
+                <img src="/assets/img/logo.png" alt="Talvirenkaat alennuksessa">
+            </div>
+            <div>
+                <h2>Sesonkimainos 2</h2>
+                <img src="/assets/img/add1.png" alt="Kesärenkaat nyt saatavilla">
+            </div>
+        </section>
+        <section class="renkaat">
+            <h2>Etsi renkaat</h2>
+            <label for="size">Valitse koko:</label>
+            <select id="size">
+                <option value="165/55-14">165/55-14</option>
+                <option value="165/55-15">165/55-15</option>
+                <option value="165/65-14">165/65-14</option>
+                <option value="175/65-14">175/65-14</option>
+                <option value="175/65-15">175/65-15</option>
+                <option value="185/55-15">185/55-15</option>
+                <option value="185/65-14">185/65-14</option>
+                <option value="185/65-15">185/65-15</option>
+                <option value="195/55-15">195/55-15</option>
+                <option value="195/65-15">195/65-15</option>
+                <option value="205/55-16">205/55-16</option>
+                <option value="205/65-16">205/65-16</option>
+                <option value="225/55-18">225/55-18</option>
+                <option value="235/60-17">235/60-17</option>
+                <option value="235/60-18">235/60-18</option>
+                <option value="235/65-17">235/65-17</option>
+                <option value="255/50-19">255/50-19</option>
+
+            </select>
+            <button id="search">Hae</button>
+            <table id="results">
+                <thead>
+                    <tr>
+                        <th>Merkki</th>
+                        <th>Malli</th>
+                        <th>Hinta (kpl)</th>
+                        <th>Tyyppi</th>
+                        <th>Varastossa</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+        <section class="video">
+            <h2>Renkaiden vaihto</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RzQ80g60nlA" title="Renkaiden vaihto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+    </div>
+    <script src="/src/app.js"></script>
+</body>
+</html>
